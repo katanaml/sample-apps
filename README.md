@@ -7,7 +7,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 ## Author
 
-Katana ML, Red Samurai Consulting, Andrejus Baranovskis
+Katana ML, Red Samurai Consulting, Andrej Baranovskij
 
 ## License
 
