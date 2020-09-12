@@ -3,7 +3,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [01](https://github.com/katanaml/sample-apps/tree/master/01) - [Zero-Shot Text Classification with Hugging Face](https://towardsdatascience.com/zero-shot-text-classification-with-hugging-face-7f533ba83cd6)
 
-[02](https://github.com/katanaml/sample-apps/tree/master/02) - Fine-Tuning Hugging Face Model with Custom Dataset
+[02](https://github.com/katanaml/sample-apps/tree/master/02) - [Fine-Tuning Hugging Face Model with Custom Dataset](https://towardsdatascience.com/fine-tuning-hugging-face-model-with-custom-dataset-82b8092f5333)
 
 ## Author
 
