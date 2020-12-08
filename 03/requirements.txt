@@ -1,0 +1,3 @@
+dateparser~=1.0.0
+schwifty~=2020.11.0
+price-parser~=0.3.4
