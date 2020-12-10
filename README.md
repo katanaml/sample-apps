@@ -5,6 +5,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [02](https://github.com/katanaml/sample-apps/tree/master/02) - [Fine-Tuning Hugging Face Model with Custom Dataset](https://towardsdatascience.com/fine-tuning-hugging-face-model-with-custom-dataset-82b8092f5333)
 
+[03](https://github.com/katanaml/sample-apps/tree/master/03) - [Price, Date and IBAN Data Extraction with Python](https://medium.com/katanaml/price-date-and-iban-data-extraction-with-python-7f26b318104)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
