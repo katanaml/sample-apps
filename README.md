@@ -7,6 +7,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [03](https://github.com/katanaml/sample-apps/tree/master/03) - [Price, Date and IBAN Data Extraction with Python](https://medium.com/katanaml/price-date-and-iban-data-extraction-with-python-7f26b318104)
 
+[04](https://github.com/katanaml/sample-apps/tree/master/04) - [Multi-Output Model with TensorFlow Keras Functional API](https://towardsdatascience.com/multi-output-model-with-tensorflow-keras-functional-api-875dd89aa7c6)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
