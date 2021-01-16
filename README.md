@@ -9,6 +9,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [04](https://github.com/katanaml/sample-apps/tree/master/04) - [Multi-Output Model with TensorFlow Keras Functional API](https://towardsdatascience.com/multi-output-model-with-tensorflow-keras-functional-api-875dd89aa7c6)
 
+[05](https://github.com/katanaml/sample-apps/tree/master/05) - [Connect to Oracle Cloud DB from Python](https://www.youtube.com/watch?v=tC6SIZ6c-Ss)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
