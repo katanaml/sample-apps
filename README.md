@@ -11,6 +11,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [05](https://github.com/katanaml/sample-apps/tree/master/05) - [Connect to Oracle Cloud DB from Python](https://www.youtube.com/watch?v=tC6SIZ6c-Ss)
 
+[05](https://github.com/katanaml/sample-apps/tree/master/05) - 
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
