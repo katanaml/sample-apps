@@ -1,0 +1,56 @@
+1. yarn create react-app react-tensorflowjs-app
+
+2. cd react-tensorflowjs-app
+
+3. yarn add @tensorflow/tfjs
+
+4. yarn start
+
+5. Button and listener
+
+<button onClick={handleRunTraining}>Run training</button>
+
+const handleRunTraining = (event) => {
+  
+};
+
+6. Training function
+
+import * as tf from '@tensorflow/tfjs';
+
+async function doTraining(model, xs, ys) {
+  const history =
+    await model.fit(xs, ys,
+      {
+        epochs: 200,
+        callbacks: {
+          onEpochEnd: async (epoch, logs) => {
+            console.log("Epoch:"
+              + epoch
+              + " Loss:"
+              + logs.loss);
+
+          }
+        }
+      });
+  console.log(history.params);
+}
+
+7. Model construction
+
+  const model = tf.sequential();
+  model.add(tf.layers.dense({ units: 1, inputShape: [1] }));
+
+  model.compile({ optimizer: tf.train.sgd(0.1), loss: 'meanSquaredError' });
+  model.summary();
+
+  // y = 2x - 1
+  const xs = tf.tensor2d([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], [6, 1]);
+  const ys = tf.tensor2d([-3.0, -1.0, 2.0, 3.0, 5.0, 7.0], [6, 1]);
+  doTraining(model, xs, ys).then(() => {
+    const prediction = model.predict(tf.tensor2d([10], [1, 1]));
+    var res = prediction.dataSync()[0];
+    prediction.dispose();
+
+    console.log('Result: ' + res);
+  });
