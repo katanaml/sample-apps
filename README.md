@@ -13,6 +13,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [05](https://github.com/katanaml/sample-apps/tree/master/05) - [FastAPI with Oracle Cloud DB, building APIs with Python](https://www.youtube.com/watch?v=uINJJy8X1S0)
 
+[06](https://github.com/katanaml/sample-apps/tree/master/06) - [React and TensorFlow.js](https://www.youtube.com/watch?v=X6uarGwclwI)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
