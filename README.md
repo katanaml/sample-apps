@@ -15,6 +15,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [06](https://github.com/katanaml/sample-apps/tree/master/06) - [React and TensorFlow.js](https://www.youtube.com/watch?v=X6uarGwclwI)
 
+[07](https://github.com/katanaml/sample-apps/tree/master/07) - [Rabbit MQ with Docker for Microservices]
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
