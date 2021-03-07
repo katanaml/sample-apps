@@ -16,7 +16,7 @@ const handleRunTraining = async (event) => {
 const handleRunInference = async (event) => {
   const model = await tf.loadLayersModel('indexeddb://basic-model');
 
-  let data = [700, 300];
+  let data = [500, 850];
   data[0] = (data[0] / (1000 / 2)) - 1;
   data[1] = (data[1] / (1000 / 2)) - 1;
 
