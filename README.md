@@ -17,6 +17,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [07](https://github.com/katanaml/sample-apps/tree/master/07) - [Rabbit MQ with Docker for Microservices](https://www.youtube.com/watch?v=oxhAaA_e2SA)
 
+[08](https://github.com/katanaml/sample-apps/tree/master/08) - [TensorFlow.js Blueprint App for Data Classification]
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
