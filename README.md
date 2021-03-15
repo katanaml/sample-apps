@@ -19,7 +19,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [08](https://github.com/katanaml/sample-apps/tree/master/08) - [TensorFlow.js Blueprint App Step by Step](https://www.youtube.com/watch?v=_2I5Q3N-AQU)
 
-[09](https://github.com/katanaml/sample-apps/tree/master/09/backend-app) - [FastAPI and Oracle DB Client in Docker]
+[09](https://github.com/katanaml/sample-apps/tree/master/09/backend-app) - [FastAPI and Oracle DB Client in Docker](https://www.youtube.com/watch?v=iGM01cYMRRQ)
 
 ## Author
 
