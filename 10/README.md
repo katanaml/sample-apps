@@ -10,3 +10,6 @@ RabbitMQ logic is based on official example [Remote procedure call (RPC)](https:
   * **python rpc_server.py**
 * Start FastAPI endpoint (from rabbitmq-web folder)
   * **uvicorn endpoint:app --reload**
+
+
+API url: http://127.0.0.1:8000/api/v1/fibonacci/docs
