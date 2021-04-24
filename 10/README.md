@@ -7,6 +7,6 @@ RabbitMQ logic is based on official example [Remote procedure call (RPC)](https:
 ## Commands
 
 * Start backend (you can start multiple instances)
-  * python rpc_server.py
+  * **python rpc_server.py**
 * Start FastAPI endpoint (from rabbitmq-web folder)
-  * uvicorn endpoint:app --reload
+  * **uvicorn endpoint:app --reload**
