@@ -21,7 +21,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [09](https://github.com/katanaml/sample-apps/tree/master/09/backend-app) - [FastAPI and Oracle DB Client in Docker](https://www.youtube.com/watch?v=iGM01cYMRRQ)
 
-[10](https://github.com/katanaml/sample-apps/tree/master/10) - RabbitMQ RPC with FastAPI
+[10](https://github.com/katanaml/sample-apps/tree/master/10) - [RabbitMQ RPC with FastAPI](https://www.youtube.com/watch?v=coMpv5HaCXE)
 
 ## Author
 
