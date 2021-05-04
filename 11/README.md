@@ -1,4 +1,4 @@
-# Celery Distributed Task Query with FastAPI for Machine Learning
+# Celery Distributed Task Queue with FastAPI for Machine Learning
 
 This sample app demonstrates how to implement Celery distributed task queues on top of RabbitMQ broker for Machine Learning model training and data processing. We are using TensorFlow in this example to train the model. API request comes through FastAPI and it is being processed asynchronously by Celery. There is a separate API endpoint to check task status. Multiple requests can be initiated and processed at the same time in parallel. Celery tasks can be monitored using Flower monitoring tool.
 
