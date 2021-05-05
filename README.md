@@ -23,7 +23,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [10](https://github.com/katanaml/sample-apps/tree/master/10) - [RabbitMQ RPC with FastAPI](https://www.youtube.com/watch?v=coMpv5HaCXE)
 
-[11](https://github.com/katanaml/sample-apps/tree/master/11) - Celery Distributed Task Queue with FastAPI for Machine Learning
+[11](https://github.com/katanaml/sample-apps/tree/master/11) - [Celery Distributed Task Queue with FastAPI for Machine Learning](https://www.youtube.com/watch?v=cU1nHFQ1Ddk)
 
 ## Author
 
