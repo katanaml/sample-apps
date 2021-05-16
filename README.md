@@ -25,6 +25,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [11](https://github.com/katanaml/sample-apps/tree/master/11) - [Celery Distributed Task Queue with FastAPI for Machine Learning](https://www.youtube.com/watch?v=cU1nHFQ1Ddk)
 
+[12](https://github.com/katanaml/katana-skipper) - Solution Template for FastAPI with RabbitMQ and Celery
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
