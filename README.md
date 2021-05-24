@@ -27,6 +27,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [12](https://github.com/katanaml/katana-skipper) - [Web API with FastAPI, RabbitMQ and Celery](https://www.youtube.com/watch?v=a0ODIWsCgDI)
 
+[13](https://github.com/katanaml/katana-skipper) - Event-Driven Microservice with RabbitMQ and FastAPI
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
