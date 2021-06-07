@@ -29,7 +29,9 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [13](https://github.com/katanaml/katana-skipper) - [Event-Driven Microservice with RabbitMQ and FastAPI](https://www.youtube.com/watch?v=syRmaDVv59k)
 
-[14](https://github.com/katanaml/katana-skipper) - FastAPI Endpoint Types with Pydantic
+[14](https://github.com/katanaml/katana-skipper) - [FastAPI Endpoint Types with Pydantic](https://www.youtube.com/watch?v=rp38wn4vZ44)
+
+[15](https://github.com/katanaml/katana-skipper) - [ML Pipeline End-to-End Solution](https://www.youtube.com/watch?v=TVkQCmIGR6w)
 
 ## Author
 
