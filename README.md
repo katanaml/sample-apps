@@ -33,6 +33,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [15](https://github.com/katanaml/katana-skipper) - [ML Pipeline End-to-End Solution](https://www.youtube.com/watch?v=TVkQCmIGR6w)
 
+[16](https://github.com/katanaml/katana-skipper) - [ML Pipeline End-to-End Solution, article on Towards Data Science](https://towardsdatascience.com/ml-pipeline-end-to-end-solution-5889690abbd8)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
