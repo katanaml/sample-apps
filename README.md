@@ -39,6 +39,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [12](https://github.com/katanaml/sample-apps/tree/master/12/tf-decision-forests) - [TensorFlow Decision Forests Example](https://www.youtube.com/watch?v=Qwr3V7DGu7U)
 
+[13](https://github.com/katanaml/sample-apps/tree/master/13) - Hugging Face Course and Pretrained Model Fine-Tuning
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
