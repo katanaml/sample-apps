@@ -37,7 +37,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [Publishing Your Python Library on PyPI](https://www.youtube.com/watch?v=YqKVaGWFp4I)
 
-[12](https://github.com/katanaml/sample-apps/tree/master/12/tf-decision-forests) - TensorFlow Decision Forests Example
+[12](https://github.com/katanaml/sample-apps/tree/master/12/tf-decision-forests) - [TensorFlow Decision Forests Example](https://www.youtube.com/watch?v=Qwr3V7DGu7U)
 
 ## Author
 
