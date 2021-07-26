@@ -1,1 +1,1 @@
-
+Hugging Face team recently released online course about transformers, pretrained model fine-tuning, and sharing models on the Hugging Face hub. I went through the first part of the course related to model fine-tuning. I explain what changes I did for my previous sample related to Hugging Face model fine-tuning, based on knowledge learned from this course.
