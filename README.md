@@ -45,6 +45,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [Dockerfile and Docker Compose Tutorial](https://www.youtube.com/watch?v=kvyVWXE3h10)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - FastAPI Running on Kubernetes Pod
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
