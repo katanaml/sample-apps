@@ -43,7 +43,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [13](https://github.com/katanaml/sample-apps/tree/master/13) - [Hugging Face Course and Pretrained Model Fine-Tuning](https://www.youtube.com/watch?v=VlW7WJi51Xk)
 
-[Skipper](https://github.com/katanaml/katana-skipper) - Dockerfile and Docker Compose Tutorial
+[Skipper](https://github.com/katanaml/katana-skipper) - [Dockerfile and Docker Compose Tutorial](https://www.youtube.com/watch?v=kvyVWXE3h10)
 
 ## Author
 
