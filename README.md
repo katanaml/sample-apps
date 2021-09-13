@@ -47,6 +47,12 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [FastAPI Running on Kubernetes Pod](https://www.youtube.com/watch?v=K0oMkXm1YJg)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [Routing Traffic Between FastAPI Pods in Kubernetes](https://www.youtube.com/watch?v=MZxOVBloJHo)
+
+[Manning](https://www.manning.com/bundles/pose-estimation-with-TensorFlowjs-ser) - [TensorFlow.js Setup for React JS App (Manning liveProject)](https://www.youtube.com/watch?v=s1wpmPmO7vg)
+
+[Skipper](https://github.com/katanaml/katana-skipper) - [FastAPI on Kubernetes with NGINX Ingress](https://www.youtube.com/watch?v=R5UMbTtaj8M)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
