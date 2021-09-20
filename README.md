@@ -53,6 +53,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [FastAPI on Kubernetes with NGINX Ingress](https://www.youtube.com/watch?v=R5UMbTtaj8M)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [RabbitMQ on Kubernetes in Skipper](https://www.youtube.com/watch?v=L-8ZEZojSJU)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
