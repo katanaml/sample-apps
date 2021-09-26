@@ -55,6 +55,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [RabbitMQ on Kubernetes in Skipper](https://www.youtube.com/watch?v=L-8ZEZojSJU)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [MLOps with TensorFlow and Kubernetes Powered by RabbitMQ and FastAPI](https://www.youtube.com/watch?v=t94-RdtLKFE)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
