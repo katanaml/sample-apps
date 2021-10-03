@@ -57,6 +57,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [MLOps with TensorFlow and Kubernetes Powered by RabbitMQ and FastAPI](https://www.youtube.com/watch?v=t94-RdtLKFE)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [MLOps: Sharing Model Across Services](https://www.youtube.com/watch?v=wk05bA5edXs)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
