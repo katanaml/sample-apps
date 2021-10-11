@@ -59,6 +59,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [MLOps: Sharing Model Across Services](https://www.youtube.com/watch?v=wk05bA5edXs)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [MLOps: Scaling TensorFlow Model on Kubernetes](https://www.youtube.com/watch?v=tqXe7USsfoQ)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
