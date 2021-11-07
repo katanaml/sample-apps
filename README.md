@@ -65,6 +65,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [BIY Workflow with FastAPI, Python and Skipper](https://www.youtube.com/watch?v=Xx5mrRMRXKQ)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [Python Numpy Array in ML Services](https://www.youtube.com/watch?v=L3sA5brOI0w)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
