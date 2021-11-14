@@ -67,6 +67,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [Python Numpy Array in ML Services](https://www.youtube.com/watch?v=L3sA5brOI0w)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [Scale FastAPI on Kubernetes Pod](https://www.youtube.com/watch?v=EdFYCI_QpJs)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
