@@ -71,6 +71,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/katana-sparrow) - [Merging GitHub Repo Template Changes](https://www.youtube.com/watch?v=A7rM3q1fx48)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [Building Bigger Applications with FastAPI](https://www.youtube.com/watch?v=SWedfF6ftpA)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
