@@ -73,6 +73,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [Building Bigger Applications with FastAPI](https://www.youtube.com/watch?v=SWedfF6ftpA)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [TensorFlow.js Microservice](https://www.youtube.com/watch?v=d1HIOVuDMMc)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
