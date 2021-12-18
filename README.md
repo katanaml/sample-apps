@@ -75,6 +75,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [TensorFlow.js Microservice](https://www.youtube.com/watch?v=d1HIOVuDMMc)
 
+[Skipper](https://github.com/katanaml/katana-skipper) - [TensorFlow.js Node on Docker and Kubernetes](https://www.youtube.com/watch?v=KeSDaFqvFEA)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
