@@ -77,6 +77,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Skipper](https://github.com/katanaml/katana-skipper) - [TensorFlow.js Node on Docker and Kubernetes](https://www.youtube.com/watch?v=KeSDaFqvFEA)
 
+[Hugging Face Gradio Python UI for ML](https://www.youtube.com/watch?v=T4JjsKDpz84)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
