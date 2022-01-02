@@ -79,6 +79,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Hugging Face Gradio Python UI for ML](https://www.youtube.com/watch?v=T4JjsKDpz84)
 
+[Hugging Face Gradio Python UI and CSV Processing](https://www.youtube.com/watch?v=8yOepgEYiD0)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
