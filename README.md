@@ -83,6 +83,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Table Query with Hugging Face ML](https://www.youtube.com/watch?v=P7_HW5_JZ0Q)
 
+[Running Hugging Face LayoutLM Model with PyCharm and Docker](https://www.youtube.com/watch?v=wQGl97a_gdo)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
