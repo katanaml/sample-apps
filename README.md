@@ -85,6 +85,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Running Hugging Face LayoutLM Model with PyCharm and Docker](https://www.youtube.com/watch?v=wQGl97a_gdo)
 
+[Hugging Face Gradio App on Docker](https://www.youtube.com/watch?v=f6zJwK-pCJo)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
