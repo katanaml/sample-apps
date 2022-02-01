@@ -87,6 +87,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Hugging Face Gradio App on Docker](https://www.youtube.com/watch?v=f6zJwK-pCJo)
 
+[Ethereum Test ETH for Web3/Blockchain Development](https://www.youtube.com/watch?v=d2HY117Kkwg)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
