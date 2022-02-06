@@ -89,6 +89,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Ethereum Test ETH for Web3/Blockchain Development](https://www.youtube.com/watch?v=d2HY117Kkwg)
 
+[What is Blockchain?](https://www.youtube.com/watch?v=BgwiJq44d0M)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
