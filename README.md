@@ -91,6 +91,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [What is Blockchain?](https://www.youtube.com/watch?v=BgwiJq44d0M)
 
+[Development Workflow with Hugging Face Transformer Model](https://www.youtube.com/watch?v=2p_i38n_o0I)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
