@@ -93,6 +93,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Development Workflow with Hugging Face Transformer Model](https://www.youtube.com/watch?v=2p_i38n_o0I)
 
+[How To Evaluate Hugging Face Saved Model](https://www.youtube.com/watch?v=iEw3tiAgQl4)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
