@@ -95,6 +95,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [How To Evaluate Hugging Face Saved Model](https://www.youtube.com/watch?v=iEw3tiAgQl4)
 
+[Hugging Face Datasets - Example with Receipts Data](https://www.youtube.com/watch?v=ZS0k9NIgauo)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
