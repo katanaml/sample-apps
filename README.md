@@ -99,6 +99,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Fine-Tuning with Hugging Face Trainer](https://www.youtube.com/watch?v=L6Dr8AFXMd8)
 
+[Get Receipt Data with Hugging Face ML Model](https://www.youtube.com/watch?v=kj0t81uq_Co)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
