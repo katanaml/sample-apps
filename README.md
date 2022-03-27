@@ -101,6 +101,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Get Receipt Data with Hugging Face ML Model](https://www.youtube.com/watch?v=kj0t81uq_Co)
 
+[Hugging Face LayoutLMv2 Model True Inference](https://www.youtube.com/watch?v=i6w9l9BI1NE)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
