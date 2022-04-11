@@ -103,6 +103,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Hugging Face LayoutLMv2 Model True Inference](https://www.youtube.com/watch?v=i6w9l9BI1NE)
 
+[Document Information Extraction Demo on Hugging Face Spaces](https://www.youtube.com/watch?v=ky6_6gWv4YU)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
