@@ -105,6 +105,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Document Information Extraction Demo on Hugging Face Spaces](https://www.youtube.com/watch?v=ky6_6gWv4YU)
 
+[Mindee docTR - Probably the Best Open-Source OCR](https://www.youtube.com/watch?v=3nYPIDCToes)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
