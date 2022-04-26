@@ -107,6 +107,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Mindee docTR - Probably the Best Open-Source OCR](https://www.youtube.com/watch?v=3nYPIDCToes)
 
+[UI for ML - Django, React or Streamlit?](https://www.youtube.com/watch?v=6YjQByV8CuI)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
