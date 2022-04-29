@@ -128,3 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
+14/hr-app/.idea/hr-app.iml
+14/hr-app/.idea/inspectionProfiles/profiles_settings.xml
+14/hr-app/.idea/inspectionProfiles/Project_Default.xml
+14/hr-app/.idea/misc.xml
+14/hr-app/.idea/modules.xml
+14/hr-app/.idea/vcs.xml
