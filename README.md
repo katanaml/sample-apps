@@ -109,6 +109,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [UI for ML - Django, React or Streamlit?](https://www.youtube.com/watch?v=6YjQByV8CuI)
 
+[PyScript - Python in the Browser](https://www.youtube.com/watch?v=MGAd7mVFUKg)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
