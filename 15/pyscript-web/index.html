@@ -55,7 +55,6 @@ from panel.io.pyodide import show
 from chart import get_chart
 
 horse_power = pn.widgets.IntInput(value=230, step=1, start=0, end=230)
-button = pn.widgets.Button(name='Filter', button_type='primary')
 search = pn.Column('# Filter by Horsepower', horse_power, background='White')
 
 cars = data.cars()
