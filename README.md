@@ -111,6 +111,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [PyScript - Python in the Browser](https://www.youtube.com/watch?v=MGAd7mVFUKg)
 
+[15](https://github.com/katanaml/sample-apps/tree/master/15/pyscript-web) - [PyScript - Deep Dive for Developer](https://www.youtube.com/watch?v=xAtoMtCfR3g)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
