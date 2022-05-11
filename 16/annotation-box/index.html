@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <style>
+        /* svg {
+            border: 1px solid #000000;
+        } */
+
+        .img-overlay-wrap {
+            position: relative;
+            display: inline-block;
+        }
+
+        .img-overlay-wrap img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .img-overlay-wrap svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img-overlay-wrap">
+        <img src='1014-receipt.jpg'>
+        <svg id='svg' viewBox='0 0 500 666.6666666666'>
+        </svg>
+    </div>
+    <script type="text/javascript">
+        const svg = document.querySelector('#svg');
+        const svgNS = svg.namespaceURI;
+
+        const rectangles = [];
+        const rect1 = document.createElementNS(svgNS, 'rect');
+        const rect2 = document.createElementNS(svgNS, 'rect');
+
+        const clickedOnRect = (rectangle) => {
+            console.log(rectangle);
+
+            for (let i = 0; i < rectangles.length; i++) {
+                rectangles[i].setAttributeNS(null, 'fill', "grey");
+            }
+
+            rectangle.setAttributeNS(null, 'fill', "blue");
+            // alert('Rectangle was clicked');
+        }
+
+        rect1.setAttributeNS(null, 'x', '70');
+        rect1.setAttributeNS(null, 'y', '310');
+        rect1.setAttributeNS(null, 'width', '90');
+        rect1.setAttributeNS(null, 'height', '20');
+        rect1.setAttributeNS(null, 'fill', "grey");
+        rect1.setAttributeNS(null, 'fill-opacity', '0.3');
+        rect1.setAttributeNS(null, 'stroke', "blue");
+        rect1.setAttributeNS(null, 'stroke-width', '1');
+        rect1.setAttributeNS(null, 'stroke-opacity', '0.7');
+        rect1.setAttributeNS(null, 'tab-index', '1');
+        rect1.setAttributeNS(null, 'cursor', 'pointer');
+        rect1.setAttributeNS(null, 'id', '1');
+        rect1.addEventListener('click', ($event) => {
+            clickedOnRect(rect1);
+        });
+        rectangles.push(rect1);
+
+        rect2.setAttributeNS(null, 'x', '67');
+        rect2.setAttributeNS(null, 'y', '345');
+        rect2.setAttributeNS(null, 'width', '90');
+        rect2.setAttributeNS(null, 'height', '20');
+        rect2.setAttributeNS(null, 'fill', "grey");
+        rect2.setAttributeNS(null, 'fill-opacity', '0.3');
+        rect2.setAttributeNS(null, 'stroke', "blue");
+        rect2.setAttributeNS(null, 'stroke-width', '1');
+        rect2.setAttributeNS(null, 'stroke-opacity', '0.7');
+        rect2.setAttributeNS(null, 'tab-index', '1');
+        rect2.setAttributeNS(null, 'cursor', 'pointer');
+        rect2.setAttributeNS(null, 'id', '2');
+        rect2.addEventListener('click', ($event) => {
+            clickedOnRect(rect2);
+        });
+        rectangles.push(rect2);
+
+        svg.appendChild(rect1);
+        svg.appendChild(rect2);
+    </script>
+</body>
+
+</html>
