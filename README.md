@@ -113,6 +113,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [15](https://github.com/katanaml/sample-apps/tree/master/15/pyscript-web) - [PyScript - Deep Dive for Developer](https://www.youtube.com/watch?v=xAtoMtCfR3g)
 
+[16](https://github.com/katanaml/sample-apps/tree/master/16/annotation-box) - [Data Annotation with SVG and JavaScript](https://www.youtube.com/watch?v=opww3dxTAcs)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
