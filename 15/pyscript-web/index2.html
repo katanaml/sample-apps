@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.13.0/dist/bundled/bootstraptemplate/bootstrap.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.2.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@holoviz/panel@0.13.0/dist/panel.min.js"></script>
+    <script type="text/javascript">
+      Bokeh.set_log_level("info");
+    </script>
+
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env>
+        - numpy
+        - pandas
+        - panel==0.13.1a2
+    </py-env>
+</head>
+
+<body>
+    <div class="container-fluid d-flex flex-column vh-100 overflow-hidden" id="container">
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top shadow" id="header"
+            style="background-color: #0f54ea;">
+            <div class="app-header">
+                <a class="title" href="" style="color: #f7f6f3;">PyScript - Python in the Browser</a>
+            </div>
+        </nav>
+
+        <div class="row overflow-hidden" id="content">
+            <div class="col mh-100 float-left" id="main">
+                <div id="fileinput"></div>
+                <div id="table"></div>
+            </div>
+        </div>
+    </div>
+    <py-script>
+import asyncio
+import panel as pn
+import pandas as pd
+from panel.io.pyodide import show
+
+file_input = pn.widgets.FileInput(accept='.csv', width=180)
+button_upload = pn.widgets.Button(name='Upload', button_type='primary', width=100)
+row = pn.Row(file_input, button_upload, height=75)
+
+table = pn.widgets.Tabulator(pagination='remote', page_size=10)
+document.getElementById('table').style.display = 'none'
+
+def process_file(event):
+    if file_input.value is not None:
+        df = pd.read_csv(io.BytesIO(file_input.value))
+        table.value = df
+        document.getElementById('table').style.display = 'block'
+
+button_upload.on_click(process_file)
+
+await show(row, 'fileinput')
+await show(table, 'table')
+    </py-script>
+</body>
+
+</html>
