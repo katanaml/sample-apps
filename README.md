@@ -115,6 +115,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [16](https://github.com/katanaml/sample-apps/tree/master/16/annotation-box) - [Data Annotation with SVG and JavaScript](https://www.youtube.com/watch?v=opww3dxTAcs)
 
+[MLOps: Simple Kubernetes with Skipper](https://www.youtube.com/watch?v=5HifGhVigLY)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
