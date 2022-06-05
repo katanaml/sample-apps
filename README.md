@@ -117,6 +117,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [MLOps: Simple Kubernetes with Skipper](https://www.youtube.com/watch?v=5HifGhVigLY)
 
+[MLUI: Django App Setup](https://www.youtube.com/watch?v=KXfxgyWhjpM)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
