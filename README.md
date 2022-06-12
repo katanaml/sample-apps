@@ -119,6 +119,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [MLUI: Django App Setup](https://www.youtube.com/watch?v=KXfxgyWhjpM)
 
+[MLUI: Django HTML Templates](https://www.youtube.com/watch?v=8PlbC89fiY8)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
