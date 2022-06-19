@@ -121,6 +121,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [MLUI: Django HTML Templates](https://www.youtube.com/watch?v=8PlbC89fiY8)
 
+[MLUI: Django, Tailwind and Flowbite (Katana ML Sparrow)](https://www.youtube.com/watch?v=tCJ4YNHnb_o)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
