@@ -125,6 +125,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [MLUI: Django HTML Template Tags](https://www.youtube.com/watch?v=8nrThpTvPLo)
 
+[MLUI: Webpack, Django, JavaScript](https://www.youtube.com/watch?v=yMfTdrnHCHA)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
