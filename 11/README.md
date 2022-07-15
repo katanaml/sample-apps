@@ -13,7 +13,7 @@ This sample app demonstrates how to implement Celery distributed task queues on 
 * Start Celery worker
   * **celery -A boston_housing.worker worker --loglevel=INFO**
 * Start Flower monitoring dashboard
-  * **celery flower -A boston_housing.worker --broker:pyamqp://guest@localhost**
+  * **celery --broker=pyamqp://guest@localhost flower -A boston_housing.worker**
 
 ## URL's
 
