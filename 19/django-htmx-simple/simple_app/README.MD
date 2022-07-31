@@ -1,6 +1,6 @@
 ## Based on tutorial
 
-[How To Use Htmx In Django](https://www.mattlayman.com/blog/2021/how-to-htmx-django/)
+[How To Use Htmx In Django, by Matt Layman](https://www.mattlayman.com/blog/2021/how-to-htmx-django/)
 
 ## Install Django
 
