@@ -129,6 +129,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [MLUI: Tailwind UI in Django with Flowbite Accordion, Table, Form](https://www.youtube.com/watch?v=5bKcfolaiRY)
 
+[17](https://github.com/katanaml/sample-apps/tree/master/19/django-htmx-simple/simple_app) - 
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
