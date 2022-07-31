@@ -141,3 +141,11 @@ dmypy.json
 17/django-react/.idea/modules.xml
 17/django-react/.idea/vcs.xml
 17/django-react/mysite/node_modules/
+19/django-htmx-simple/.idea/django-htmx-simple.iml
+19/django-htmx-simple/.idea/inspectionProfiles/profiles_settings.xml
+19/django-htmx-simple/.idea/inspectionProfiles/Project_Default.xml
+19/django-htmx-simple/.idea/misc.xml
+19/django-htmx-simple/.idea/modules.xml
+19/django-htmx-simple/simple_app/base/migrations/0001_initial.py
+19/django-htmx-simple/simple_app/base/migrations/0002_taskmodel_delete_task.py
+19/django-htmx-simple/simple_app/base/migrations/__init__.py
