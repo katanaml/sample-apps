@@ -129,7 +129,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [MLUI: Tailwind UI in Django with Flowbite Accordion, Table, Form](https://www.youtube.com/watch?v=5bKcfolaiRY)
 
-[17](https://github.com/katanaml/sample-apps/tree/master/19/django-htmx-simple/simple_app) - 
+[17](https://github.com/katanaml/sample-apps/tree/master/19/django-htmx-simple/simple_app) - [The old old coolness - HTMX | Execute HTTP request directly from HTML tag](https://www.youtube.com/watch?v=35TZAdzj5qg)
 
 ## Author
 
