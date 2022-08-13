@@ -1,0 +1,87 @@
+<table id="employees-table" class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+    <tr>
+        <th scope="col" class="py-3 px-6">
+            First name
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Last name
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Email
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Phone number
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Hire date
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Job
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Salary
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Commission Pct
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Manager
+        </th>
+        <th scope="col" class="py-3 px-6">
+            Department
+        </th>
+        <th scope="col" class="py-3 px-6">
+            <span class="sr-only">Edit</span>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for employee in employees %}
+    <div>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                {{ employee.first_name }}
+            </th>
+            <td class="py-4 px-6">
+                {{ employee.last_name }}
+            </td>
+            <td class="py-4 px-6">
+                {{ employee.email }}
+            </td>
+            <td class="py-4 px-6">
+                {{ employee.phone_number }}
+            </td>
+            <td class="py-4 px-6">
+                {{ employee.hire_date }}
+            </td>
+            <td class="py-4 px-6">
+                {{ employee.job_id }}
+            </td>
+            <td class="py-4 px-6">
+                {{ employee.salary }}
+            </td>
+            <td class="py-4 px-6">
+                {{ employee.commision_pct }}
+            </td>
+            <td class="py-4 px-6">
+                {{ employee.manager_id }}
+            </td>
+            <td class="py-4 px-6">
+                {{ employee.department_id }}
+            </td>
+            <td class="py-4 px-6 text-right">
+                <button type="button" @click="showEditForm = true, showSaveSuccess = false" :disabled="showEditForm"
+                        hx-get="{% url 'edit_employee' employee.employee_id %}"
+                        hx-target="#edit-form"
+                        hx-swap="outerHTML"
+                        :class="showEditForm ? 'text-white bg-blue-400 dark:bg-blue-500 cursor-not-allowed font-medium rounded-lg text-sm px-5 py-2.5 text-center' :
+                                    'text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center'">
+                    Edit
+                </button>
+            </td>
+        </tr>
+    </div>
+    {% endfor %}
+    </tbody>
+</table>
