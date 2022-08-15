@@ -1,4 +1,7 @@
-<table id="employees-table" class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+<table id="employees-table"
+       hx-get="{% url 'employees' %}"
+       hx-trigger="employeeChanged from:body"
+       class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
     <tr>
         <th scope="col" class="py-3 px-6">
@@ -62,7 +65,7 @@
                 {{ employee.salary }}
             </td>
             <td class="py-4 px-6">
-                {{ employee.commision_pct }}
+                {{ employee.commission_pct }}
             </td>
             <td class="py-4 px-6">
                 {{ employee.manager_id }}

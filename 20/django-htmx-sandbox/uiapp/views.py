@@ -1,11 +1,21 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.views.generic import ListView
 from .models import EmployeeModel
 from .forms import EmployeeForm
 
 
-class EmployeeListView(ListView):
+class IndexView(ListView):
     template_name = 'index.html'
+
+    def get(self, request):
+        employees = EmployeeModel.objects.all()
+        context = {'employees': employees}
+        return render(request, self.template_name, context)
+
+
+class EmployeeTableView(ListView):
+    template_name = 'view-table-htmx.html'
 
     def get(self, request):
         employees = EmployeeModel.objects.all()
@@ -15,7 +25,6 @@ class EmployeeListView(ListView):
 
 class EmployeeEditView(ListView):
     template_name = 'edit-form-htmx.html'
-    view_template_name = 'view-table-htmx.html'
 
     def get(self, request, pk):
         employee = EmployeeModel.objects.get(pk=pk)
@@ -32,14 +41,17 @@ class EmployeeEditView(ListView):
         form = EmployeeForm(request.POST, instance=employee)
 
         if form.is_valid():
-            print(pk)
+            print('Primary key:', pk)
             print(form.cleaned_data)
 
             form.save()
 
-            employees = EmployeeModel.objects.all()
-            return render(request, self.view_template_name, {'employees': employees})
+            success = {'Data saved successfully'}
 
-        context = {'form': form}
-        return render(request, self.template_name, context)
-
+            context = {'form': form, 'success': success}
+            response = render(request, self.template_name, context)
+            response['HX-Trigger'] = 'employeeChanged'
+            return response
+        else:
+            context = {'form': form, 'errors': form.errors.values()}
+            return render(request, self.template_name, context)

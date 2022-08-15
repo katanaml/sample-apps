@@ -37,7 +37,7 @@ class DepartmentsModel(models.Model):
 
 class EmployeeModel(models.Model):
     employee_id = models.AutoField(primary_key=True)
-    first_name = models.CharField(max_length=20, blank=True, null=True)
+    first_name = models.CharField(max_length=20)
     last_name = models.CharField(max_length=25)
     email = models.CharField(max_length=25)
     phone_number = models.CharField(max_length=20, blank=True, null=True)
@@ -58,6 +58,6 @@ class EmployeeModel(models.Model):
         verbose_name_plural = 'Employees'
         ordering = ['-employee_id']
         constraints = [
-            models.CheckConstraint(check=models.Q(salary__gte=0), name='salary_gt_0'),
-            models.UniqueConstraint(fields=['email'], name='email_unique'),
+            models.CheckConstraint(check=models.Q(salary__gte=0), name='salary_constraint', violation_error_message='Salary must be greater than 0'),
+            models.UniqueConstraint(fields=['email'], name='Email must be unique'),
         ]
