@@ -39,3 +39,13 @@ Add new employee entries through Django Admin console
 ```
 python manage.py runserver
 ```
+
+Dump/load data
+
+```
+python manage.py dumpdata uiapp  > db.json --indent 4
+```
+
+```
+python manage.py loaddata db.json
+```
