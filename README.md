@@ -131,7 +131,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [19](https://github.com/katanaml/sample-apps/tree/master/19/django-htmx-simple/simple_app) - [The old old coolness - HTMX | Execute HTTP request directly from HTML tag](https://www.youtube.com/watch?v=35TZAdzj5qg)
 
-[20](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) -
+[20](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [Dynamic UI in Django with Alpine.js](https://www.youtube.com/watch?v=kYmyf1XLYew)
 
 ## Author
 
