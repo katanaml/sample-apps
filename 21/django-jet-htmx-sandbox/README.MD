@@ -49,17 +49,3 @@ python manage.py dumpdata uiapp  > db.json --indent 4
 ```
 python manage.py loaddata db.json
 ```
-
-## Webpack setup
-
-1. Install
-
-```
-npm install webpack webpack-cli --save-dev
-```
-
-2. Run
-
-```
-npm run dev
-```
