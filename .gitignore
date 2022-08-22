@@ -167,3 +167,10 @@ dmypy.json
 20/django-htmx-sandbox/uiapp/migrations/0009_remove_employeemodel_department_id_departmentsmodel.py
 20/django-htmx-sandbox/uiapp/migrations/0010_employeemodel_department_id.py
 20/django-htmx-sandbox/uiapp/migrations/__init__.py
+21/django-jet-htmx-sandbox/.idea/dataSources.xml
+21/django-jet-htmx-sandbox/.idea/django-jet-htmx-sandbox.iml
+21/django-jet-htmx-sandbox/.idea/inspectionProfiles/profiles_settings.xml
+21/django-jet-htmx-sandbox/.idea/inspectionProfiles/Project_Default.xml
+21/django-jet-htmx-sandbox/.idea/misc.xml
+21/django-jet-htmx-sandbox/.idea/modules.xml
+21/django-jet-htmx-sandbox/.idea/vcs.xml

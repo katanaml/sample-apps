@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django, Oracle JET and HTMX</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@1.8.0"></script>
+
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script>
+
+    <style id="compiled-css">
+        /**
+            The default theme for JET is based on Oracle's Redwood Design System.
+            Theming is provided via CSS Variables. A Theme Builder application to help build custom themes is
+            available from the Learning/Dive-in page of the JET website.
+        **/
+
+        @import url('//static.oracle.com/cdn/jet/13.0.0/default/css/redwood/oj-redwood-min.css');
+
+    </style>
+
+</head>
+<body>
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+
+<script type="text/javascript">//<![CDATA[
+
+// CDN configuration for lading base JET libraries and resources
+function _getCDNPath(paths) {
+    var cdnPath = "https://static.oracle.com/cdn/jet/";
+    var ojPath = "13.0.0/default/js/";
+    var thirdpartyPath = "13.0.0/3rdparty/";
+    var keys = Object.keys(paths);
+    var newPaths = {};
+
+    function _isoj(key) {
+        return (key.indexOf('oj') === 0 && key !== 'ojdnd');
+    }
+
+    keys.forEach(function (key) {
+        newPaths[key] = cdnPath + (_isoj(key) ? ojPath : thirdpartyPath) + paths[key];
+    });
+    return newPaths;
+}
+
+requirejs.config({
+    paths: _getCDNPath({
+        'knockout': 'knockout/knockout-3.5.1',
+        'preact': 'preact/dist/preact.umd',
+        'preact/hooks': 'preact/hooks/dist/hooks.umd',
+        'preact/compat': 'preact/compat/dist/compat.umd',
+        'preact/jsx-runtime': 'preact/jsx-runtime/dist/jsxRuntime.umd',
+        '@oracle/oraclejet-preact': 'oraclejet-preact/amd',
+        'jquery': 'jquery/jquery-3.6.0.min',
+        'jqueryui-amd': 'jquery/jqueryui-amd-1.13.0.min',
+        'ojs': 'min',
+        'ojL10n': 'ojL10n',
+        'ojtranslations': 'resources',
+        'signals': 'js-signals/signals.min',
+        'text': 'require/text',
+        'hammerjs': 'hammer/hammer-2.0.8.min',
+        'ojdnd': 'dnd-polyfill/dnd-polyfill-1.0.2.min',
+        'touchr': 'touchr/touchr'
+    })
+});
+
+//]]></script>
+
+</body>
+</html>

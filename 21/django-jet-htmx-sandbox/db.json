@@ -1,0 +1,180 @@
+[
+{
+    "model": "uiapp.jobmodel",
+    "pk": "AD_PRES",
+    "fields": {
+        "job_title": "President",
+        "min_salary": "20080.00",
+        "max_salary": "40000.00",
+        "created_at": "2022-08-04T17:12:50.181Z",
+        "updated_at": "2022-08-04T17:12:50.181Z"
+    }
+},
+{
+    "model": "uiapp.jobmodel",
+    "pk": "AD_VP",
+    "fields": {
+        "job_title": "Administration Vice President",
+        "min_salary": "15000.00",
+        "max_salary": "30000.00",
+        "created_at": "2022-08-04T17:11:55.525Z",
+        "updated_at": "2022-08-04T17:11:55.525Z"
+    }
+},
+{
+    "model": "uiapp.jobmodel",
+    "pk": "FI_ACCOUNT",
+    "fields": {
+        "job_title": "Accountant",
+        "min_salary": "4200.00",
+        "max_salary": "9000.00",
+        "created_at": "2022-08-04T17:13:19.952Z",
+        "updated_at": "2022-08-04T17:13:19.952Z"
+    }
+},
+{
+    "model": "uiapp.jobmodel",
+    "pk": "IT_PROG",
+    "fields": {
+        "job_title": "Programmer",
+        "min_salary": "4000.00",
+        "max_salary": "10000.00",
+        "created_at": "2022-08-04T17:11:10.265Z",
+        "updated_at": "2022-08-04T17:11:10.265Z"
+    }
+},
+{
+    "model": "uiapp.jobmodel",
+    "pk": "PU_MAN",
+    "fields": {
+        "job_title": "Purchasing Manager",
+        "min_salary": "8000.00",
+        "max_salary": "15000.00",
+        "created_at": "2022-08-04T17:13:49.099Z",
+        "updated_at": "2022-08-04T17:13:49.099Z"
+    }
+},
+{
+    "model": "uiapp.departmentsmodel",
+    "pk": 60,
+    "fields": {
+        "department_name": "IT",
+        "manager_id": 1,
+        "location_id": 1700,
+        "created_at": "2022-08-04T19:27:12.768Z",
+        "updated_at": "2022-08-04T19:29:25.783Z"
+    }
+},
+{
+    "model": "uiapp.departmentsmodel",
+    "pk": 90,
+    "fields": {
+        "department_name": "Executive",
+        "manager_id": 1,
+        "location_id": 1700,
+        "created_at": "2022-08-04T19:26:22.023Z",
+        "updated_at": "2022-08-04T19:29:19.970Z"
+    }
+},
+{
+    "model": "uiapp.departmentsmodel",
+    "pk": 170,
+    "fields": {
+        "department_name": "Manufacturing",
+        "manager_id": null,
+        "location_id": 1700,
+        "created_at": "2022-08-05T04:04:06.458Z",
+        "updated_at": "2022-08-05T04:04:06.458Z"
+    }
+},
+{
+    "model": "uiapp.employeemodel",
+    "pk": 1,
+    "fields": {
+        "first_name": "Steven",
+        "last_name": "King",
+        "email": "sking@my.org",
+        "phone_number": "515.123.4567",
+        "hire_date": "2003-06-17",
+        "job_id": "AD_PRES",
+        "salary": "25000.01",
+        "commission_pct": "0.10",
+        "manager_id": null,
+        "department_id": 90,
+        "created_at": "2022-08-04T19:28:55.526Z",
+        "updated_at": "2022-08-15T08:23:08.631Z"
+    }
+},
+{
+    "model": "uiapp.employeemodel",
+    "pk": 2,
+    "fields": {
+        "first_name": "Neena",
+        "last_name": "Kochhar",
+        "email": "nkochhar@my.org",
+        "phone_number": "515.123.4568",
+        "hire_date": "2005-09-21",
+        "job_id": "AD_VP",
+        "salary": "17000.00",
+        "commission_pct": "0.20",
+        "manager_id": 1,
+        "department_id": 90,
+        "created_at": "2022-08-04T19:30:51.233Z",
+        "updated_at": "2022-08-15T08:01:00.986Z"
+    }
+},
+{
+    "model": "uiapp.employeemodel",
+    "pk": 3,
+    "fields": {
+        "first_name": "Lex",
+        "last_name": "De Haan",
+        "email": "ldehaan@my.org",
+        "phone_number": "515.123.4569",
+        "hire_date": "2001-01-13",
+        "job_id": "AD_VP",
+        "salary": "17010.00",
+        "commission_pct": null,
+        "manager_id": 1,
+        "department_id": 90,
+        "created_at": "2022-08-05T04:00:41.026Z",
+        "updated_at": "2022-08-14T12:54:50.381Z"
+    }
+},
+{
+    "model": "uiapp.employeemodel",
+    "pk": 4,
+    "fields": {
+        "first_name": "Alexander",
+        "last_name": "Hunold",
+        "email": "anuhold@my.org",
+        "phone_number": "590.423.4567",
+        "hire_date": "2006-01-03",
+        "job_id": "IT_PROG",
+        "salary": "9000.00",
+        "commission_pct": null,
+        "manager_id": 3,
+        "department_id": 60,
+        "created_at": "2022-08-05T04:01:52.292Z",
+        "updated_at": "2022-08-05T04:01:52.292Z"
+    }
+},
+{
+    "model": "uiapp.employeemodel",
+    "pk": 5,
+    "fields": {
+        "first_name": "Bruce",
+        "last_name": "Ernst",
+        "email": "bernst@my.org",
+        "phone_number": "590.423.4568",
+        "hire_date": "2007-05-25",
+        "job_id": "IT_PROG",
+        "salary": "6000.00",
+        "commission_pct": null,
+        "manager_id": 3,
+        "department_id": 60,
+        "created_at": "2022-08-05T04:03:15.885Z",
+        "updated_at": "2022-08-15T03:33:09.445Z"
+    }
+}
+]

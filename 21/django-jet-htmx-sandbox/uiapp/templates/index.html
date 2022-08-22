@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="grid grid-cols-1 px-4 pt-6 mb-4 xl:grid-cols-2 xl:gap-4 dark:bg-gray-900 dark:border-gray-700">
+    <div class="col-span-full mb-4 xl:mb-2">
+        <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">Django, Oracle JET and HTMX</h1>
+    </div>
+</div>
+
+<div class="px-4">
+    <div class="p-4 mb-4 rounded-lg shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+        <h3 class="mb-4 text-xl font-bold dark:text-white">Employees</h3>
+
+        <oj-table id='table' style="height:300px;width:100%" class="banded-table" aria-label='Employees Table'
+                  scroll-policy="loadMoreOnScroll" scroll-policy-options='{"fetchSize": 5}'
+                  data='[[dataProvider]]'
+                  selection-mode='{"row":"single","column":"none"}' columns='[
+                {"headerText": "First Name", "field": "fname"},
+                {"headerText": "Last Name", "field": "lname"},
+                {"headerText": "Email", "field": "email"},
+                {"headerText": "Phone", "field": "phone"},
+                {"headerText": "Hire Date", "field": "hiredate", "template": "hireDateTemplate"},
+                {"headerText": "Title", "field": "job", "template": "titleTemplate"},
+                {"headerText": "Salary", "field": "sal", "template": "salaryTemplate"},
+                {"headerText": "Commission Pct", "field": "comm"},
+                {"headerText": "Manager", "field": "manager"},
+                {"headerText": "Department", "field": "dept"}]'>
+
+            <template slot="titleTemplate" data-oj-as="title">
+                <oj-bind-text value="[[title.data]]"></oj-bind-text>
+            </template>
+            <template slot="hireDateTemplate" data-oj-as="hireDate">
+                <oj-bind-text value="[[formatDate(hireDate.data)]]"></oj-bind-text>
+            </template>
+            <template slot="salaryTemplate" data-oj-as="salary">
+                <oj-bind-text value="[[formatSal(salary.data)]]"></oj-bind-text>
+            </template>
+
+        </oj-table>
+
+    </div>
+</div>
+
+<div class="px-4" x-show="showEditForm">
+    <div class="p-4 mb-4 bg-white rounded-lg shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+        <h3 class="mb-4 text-xl font-bold dark:text-white">Edit Employee</h3>
+        <div>
+
+
+        </div>
+
+    </div>
+</div>
+
+{{ employees |json_script:"employees" }}
+
+<script src="{% static 'scripts/index-page.js' %}"></script>
+
+{% endblock %}
