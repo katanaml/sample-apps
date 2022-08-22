@@ -74,7 +74,7 @@
                 {{ employee.department_id }}
             </td>
             <td class="py-4 px-6 text-right">
-                <button type="button" @click="showEditForm = true, showSaveSuccess = false" :disabled="showEditForm"
+                <button type="button" @click="showEditForm = true" :disabled="showEditForm"
                         hx-get="{% url 'edit_employee' employee.employee_id %}"
                         hx-target="#edit-form"
                         hx-swap="outerHTML"
