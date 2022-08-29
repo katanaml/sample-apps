@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'uiapp.apps.UiappConfig',
-    'widget_tweaks',
     'django_browser_reload',
 ]
 
