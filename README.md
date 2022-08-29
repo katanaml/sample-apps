@@ -133,6 +133,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [20](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [Dynamic UI in Django with Alpine.js](https://www.youtube.com/watch?v=kYmyf1XLYew)
 
+[20](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [Python Django CRUD part 1 - Data Model and Constraints](https://www.youtube.com/watch?v=P1gfW91Is1I)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
