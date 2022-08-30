@@ -15,7 +15,6 @@ class EmployeeForm(forms.ModelForm):
         return email
 
     def clean_salary(self):
-        print(self.cleaned_data['job_id'].max_salary)
         salary = self.cleaned_data['salary']
         if salary < self.cleaned_data['job_id'].min_salary or salary > self.cleaned_data['job_id'].max_salary:
             raise forms.ValidationError(
