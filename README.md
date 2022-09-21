@@ -133,9 +133,13 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [20](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [Dynamic UI in Django with Alpine.js](https://www.youtube.com/watch?v=kYmyf1XLYew)
 
-[20](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [Python Django CRUD part 1 - Data Model and Constraints](https://www.youtube.com/watch?v=P1gfW91Is1I)
+[21](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [Python Django CRUD part 1 - Data Model and Constraints](https://www.youtube.com/watch?v=P1gfW91Is1I)
 
-[20](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [Python Django Model Form - Django CRUD, part 2](https://www.youtube.com/watch?v=oVpC2Vq0m-g)
+[22](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [Python Django Model Form - Django CRUD, part 2](https://www.youtube.com/watch?v=oVpC2Vq0m-g)
+
+[23](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [HTMX: Fetch Edit Form Data - Django CRUD, part 3](https://www.youtube.com/watch?v=O1f1ld2cojU)
+
+[24](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [HTMX: Saving Form Changes - Django CRUD, part 4](https://www.youtube.com/watch?v=TgkLCDKQLS8)
 
 ## Author
 
