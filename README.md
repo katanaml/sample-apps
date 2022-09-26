@@ -141,6 +141,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [24](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [HTMX: Saving Form Changes - Django CRUD, part 4](https://www.youtube.com/watch?v=TgkLCDKQLS8)
 
+[25](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [HTMX: Events and Triggers - Django CRUD, part 5](https://www.youtube.com/watch?v=TnFkfUgCl6M)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
