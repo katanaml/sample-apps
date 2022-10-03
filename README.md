@@ -143,6 +143,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [25](https://github.com/katanaml/sample-apps/tree/master/20/django-htmx-sandbox) - [HTMX: Events and Triggers - Django CRUD, part 5](https://www.youtube.com/watch?v=TnFkfUgCl6M)
 
+[26](https://github.com/katanaml/sample-apps/tree/master/21/django-jet-htmx-sandbox) - [Django Python with Oracle JET UI Table](https://www.youtube.com/watch?v=DehESfh0h-Q)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
