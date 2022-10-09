@@ -145,6 +145,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [26](https://github.com/katanaml/sample-apps/tree/master/21/django-jet-htmx-sandbox) - [Django Python with Oracle JET UI Table](https://www.youtube.com/watch?v=DehESfh0h-Q)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Streamlit Python App Setup](https://www.youtube.com/watch?v=1tO1dWYY7Ws)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
