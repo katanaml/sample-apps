@@ -147,6 +147,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Streamlit Python App Setup](https://www.youtube.com/watch?v=1tO1dWYY7Ws)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Streamlit Python/React for Image Annotation](https://www.youtube.com/watch?v=VIKOCINWBNw)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
