@@ -151,6 +151,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Streamlit/Python Handling Fast Data Entry](https://www.youtube.com/watch?v=_y7-8BLaNoE)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Understanding Streamlit/Python Application Flow](https://www.youtube.com/watch?v=_uvz18Kh_0w)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
