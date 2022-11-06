@@ -153,6 +153,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Understanding Streamlit/Python Application Flow](https://www.youtube.com/watch?v=_uvz18Kh_0w)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Streamlit/Python Drawable Canvas - Element Selection (React JS)](https://www.youtube.com/watch?v=QaJzoyfSgg4)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
