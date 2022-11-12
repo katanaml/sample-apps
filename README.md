@@ -155,6 +155,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Streamlit/Python Drawable Canvas - Element Selection (React JS)](https://www.youtube.com/watch?v=QaJzoyfSgg4)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Building Streamlit/Python Dynamic Forms](https://www.youtube.com/watch?v=VF3dAQh2Azg)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
