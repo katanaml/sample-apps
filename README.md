@@ -157,6 +157,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Building Streamlit/Python Dynamic Forms](https://www.youtube.com/watch?v=VF3dAQh2Azg)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Calling JavaScript from Streamlit/Python](https://www.youtube.com/watch?v=4iGmKeVSEEE)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
