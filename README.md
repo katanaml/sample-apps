@@ -159,6 +159,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Calling JavaScript from Streamlit/Python](https://www.youtube.com/watch?v=4iGmKeVSEEE)
 
+[Sparrow Labeling](https://github.com/katanaml/streamlit-sparrow-labeling-comp) - [Responsive UI with Streamlit/Python](https://www.youtube.com/watch?v=qOn1vUvA5iA)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
