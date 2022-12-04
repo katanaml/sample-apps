@@ -161,6 +161,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow Labeling](https://github.com/katanaml/streamlit-sparrow-labeling-comp) - [Responsive UI with Streamlit/Python](https://www.youtube.com/watch?v=qOn1vUvA5iA)
 
+[Streamlit Sparrow Labeling Comp](https://github.com/katanaml/streamlit-sparrow-labeling-comp) - [Invoice Annotation with Sparrow/Python](https://www.youtube.com/watch?v=VcYx2KBsozM)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
