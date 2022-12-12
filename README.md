@@ -163,7 +163,7 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Streamlit Sparrow Labeling Comp](https://github.com/katanaml/streamlit-sparrow-labeling-comp) - [Invoice Annotation with Sparrow/Python](https://www.youtube.com/watch?v=VcYx2KBsozM)
 
-[Dependent UI Widgets in Streamlit/Python](https://github.com/katanaml/sparrow) - [Dependent UI Widgets in Streamlit/Python](https://www.youtube.com/watch?v=3x0SJ6-LrcA)
+[Sparrow](https://github.com/katanaml/sparrow) - [Dependent UI Widgets in Streamlit/Python](https://www.youtube.com/watch?v=3x0SJ6-LrcA)
 
 ## Author
 
