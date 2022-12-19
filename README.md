@@ -165,6 +165,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Dependent UI Widgets in Streamlit/Python](https://www.youtube.com/watch?v=3x0SJ6-LrcA)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [File Upload/Download in Streamlit/Python](https://www.youtube.com/watch?v=awsjo_1tqIM)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
