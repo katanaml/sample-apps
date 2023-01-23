@@ -167,10 +167,16 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [File Upload/Download in Streamlit/Python](https://www.youtube.com/watch?v=awsjo_1tqIM)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Best Platform for Python Apps Deployment - Hugging Face Spaces with Docker](https://www.youtube.com/watch?v=DQjze1SlYd4)
+
+[Sparrow](https://github.com/katanaml/sparrow) - [Donut 🍩 - ChatGPT for Document AI](https://www.youtube.com/watch?v=2-Gi-2srIPE)
+
+[Sparrow](https://github.com/katanaml/sparrow) - [How To Fine-tune Donut Model (Document AI)](https://www.youtube.com/watch?v=qKFk2kwyp4o)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
 
 ## License
 
-Licensed under the Apache License, Version 2.0. Copyright 2020-2021 Katana ML. [Copy of the license](https://github.com/katanaml/sample-apps/blob/master/LICENSE).
+Licensed under the Apache License, Version 2.0. Copyright 2020-2023 Katana ML. [Copy of the license](https://github.com/katanaml/sample-apps/blob/master/LICENSE).
