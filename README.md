@@ -175,6 +175,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Preparing Dataset for Donut Fine-Tuning (part 1, Document AI)](https://www.youtube.com/watch?v=ypLHiJr_f24)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Preparing Dataset for Donut Fine-Tuning (part 3, Document AI)](https://www.youtube.com/watch?v=pHiy-_l5MlU)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
