@@ -179,6 +179,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Streamlit Button Group UI (Flowbite) Component](https://www.youtube.com/watch?v=bhg_3PQ06bQ)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Document Data Extraction - Data Mapping for Donut Model Fine-Tuning Dataset (Document AI)](https://www.youtube.com/watch?v=Bq9uEhuRT9k)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
