@@ -181,6 +181,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Document Data Extraction - Data Mapping for Donut Model Fine-Tuning Dataset (Document AI)](https://www.youtube.com/watch?v=Bq9uEhuRT9k)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Improve OCR Results with Sparrow (running on Streamlit/Python and Ngrok)](https://www.youtube.com/watch?v=hOLX6TIosgg)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
