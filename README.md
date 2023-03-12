@@ -183,6 +183,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Improve OCR Results with Sparrow (running on Streamlit/Python and Ngrok)](https://www.youtube.com/watch?v=hOLX6TIosgg)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [Hugging Face Dataset for Donut Model Fine-Tuning (Document AI)](https://www.youtube.com/watch?v=lmy-UcrGn-U)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
