@@ -185,6 +185,8 @@ Machine Learning sample apps - this repo provides sample code to support my [art
 
 [Sparrow](https://github.com/katanaml/sparrow) - [Hugging Face Dataset for Donut Model Fine-Tuning (Document AI)](https://www.youtube.com/watch?v=lmy-UcrGn-U)
 
+[Sparrow](https://github.com/katanaml/sparrow) - [How I'm Using ChatGPT/GPT-4 as a Solo Python Developer](https://www.youtube.com/watch?v=TvS1FvkD1q0)
+
 ## Author
 
 Katana ML, Red Samurai Consulting, Andrej Baranovskij
